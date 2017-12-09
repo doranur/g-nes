@@ -7,7 +7,9 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
+  <%= link_to 'tüm filmler', movies_path %>
+<%= link_to 'yeni film ekle',new_movie_path%>
+<br><br>
 <%= yield %>
 
 </body>
